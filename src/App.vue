@@ -1,19 +1,27 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld
+      msg="Licorne world"
+      href="https://unicorn.mrtino.eu/"
+      licorneUrl="https://unicorn.mrtino.eu/#100,0,0,100,0,0,0,100,0,0,100,0,1,0,0"
+      text="test props licorne"
+      question="false"
+    />
+    <Stackerine />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from "./components/HelloWorld.vue";
+import Stackerine from "./components/Stackerine.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
+    HelloWorld,
+    Stackerine
   }
-}
+};
 </script>
 
 <style>
